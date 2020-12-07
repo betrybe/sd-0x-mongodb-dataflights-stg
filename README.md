@@ -1,3 +1,8 @@
+### Termos e acordos
+
+Ao iniciar este projeto, você concorda com as diretrizes do Código de Ética e Conduta e do Manual da Pessoa Estudante da Trybe.
+---
+
 # Boas vindas ao repositório do projeto DataFlights!!
 
 Você já usa o GitHub diariamente para desenvolver os exercícios, certo? Agora, para desenvolver os projetos, você deverá seguir as instruções a seguir. Fique atento a cada passo, e se tiver qualquer dúvida, nos envie por _Slack_! #vqv 🚀
@@ -6,9 +11,86 @@ Aqui você vai encontrar os detalhes de como estruturar o desenvolvimento do seu
 
 ---
 
-## Instruções para entregar seu projeto:
+# Sumário
 
-### ANTES DE COMEÇAR A DESENVOLVER:
+- [Habilidades](#habilidades)
+- [Entregáveis](#entregaveis)
+  - [O que deverá ser desenvolvido](#o-que-devera-ser-desenvolvido)
+  - [Desenvolvimento](#desenvolvimento)
+  - [Data de entrega](#data-de-entrega)
+- [Intruções para entregar](#intruções-para-entregar)
+  - [Antes de começar a desenvolver](#antes-de-começar-a-desenvolver)
+  - [Durante o desenvolvimento](#durante-o-desenvolvimento)
+  - [Depois de terminar (Opcional)](#depois-de-terminar-opcional)
+- [Como desenvolver](#como-desenvolver)
+- [Requisitos do projeto](#requisitos-do-projeto)
+  - [Lista de requisitos](#lista-de-requisitos)
+- [Avisos finais](#avisos-finais)
+
+# Habilidades
+
+- Buscar documentos no banco
+  - Usar filtros na busca
+- Deletar documentos conforme filtro
+- Contar documentos compreendidos nos filtros pedidos
+
+# Entregáveis
+
+Temos, neste projeto, uma série de desafios com diferentes níveis de complexidade que devem ser resolvidos cada um em seu arquivo próprio.
+
+1. Leia a pergunta e crie no diretório `challenges` um arquivo chamado `desafioN.js`, em que N é o número do desafio.
+
+2. O arquivo deve conter apenas o código MQL (_Mongo Query Language_) do desafio resolvido. **Não se esqueça de incluir o ponto e vírgula (";")** no final de suas queries, como no exemplo a seguir:
+    ```js
+    db.voos.find();
+    ```
+    ⚠️ **Restrições** ⚠️:
+
+      - **Não se deve usar aspas simples** para especificar campos e/ou valores. Quando for necessário usar aspas, **use somente aspas duplas**;
+
+      - **Não se deve usar o comando `use dataFlights`**, haja visto que **os testes já se conectam automaticamente à base `dataFlights`**.
+
+3. Faça isso até finalizar todos os desafios e depois siga as instruções de como entregar o projeto em [**Instruções para entregar seu projeto**](#instruções-para-entregar-seu-projeto).
+
+4. Para entregar o seu projeto você deverá criar um _Pull Request_ neste repositório. Este _Pull Request_ deverá conter no diretório `challenges` os arquivos `desafio1.js`, `desafio2.js` e assim por diante até o `desafio28.js`, que conterão seu código `MQL` de cada desafio, respectivamente.
+
+## ⚠️ É importante que seus arquivos tenham exatamente estes nomes! ⚠️
+
+Qualquer dúvida, procure a monitoria. Lembre-se que você pode consultar nosso conteúdo sobre [Git & GitHub](https://course.betrybe.com/intro/git/) sempre que precisar!
+
+---
+
+## O que deverá ser desenvolvido
+
+Hoje você fará um projeto com o codinome _dataflights_. Neste projeto, você praticará todos os conceitos de **MongoDB** já ensinados até aqui.
+
+Porém, você usará um banco de dados diferente dos utilizados nos exemplos e exercícios vistos até agora. Chamaremos esse banco de `dataFlights`. As instruções de como restaurar o banco podem ser lidas a seguir.
+
+---
+## Desenvolvimento
+
+Nesse projeto você vai elaborar _queries_ em `mongo` para:
+- Consultar a coleção do projeto, usando vários campos para filtrar essa busca, 
+- Deletar alguns voos conforme outros filtros.
+- Contar voos compreendidos nos filtros.
+
+## Data de Entrega
+
+
+  - Projeto individual.
+
+
+  - Será um dia de projeto.
+
+
+  - O projeto tem até a seguinte data: `DD/MM/YYYY - 14:00h`. Para ser entregue a avaliação final.	  - Data de entrega para avaliação final do projeto: `DD/MM/YYYY - 14:00h`.
+
+
+---
+
+## Instruções para entregar seu projeto
+
+### ANTES DE COMEÇAR A DESENVOLVER
 
 1. Clone o repositório
   * `git clone https://github.com/tryber/sd-0x-project-mongodb-dataflights.git`.
@@ -53,37 +135,55 @@ Aqui você vai encontrar os detalhes de como estruturar o desenvolvimento do seu
 
 ---
 
-# Entregáveis
+### DURANTE O DESENVOLVIMENTO
 
-Temos, neste projeto, uma série de desafios com diferentes níveis de complexidade que devem ser resolvidos cada um em seu arquivo próprio.
+* ⚠ **LEMBRE-SE DE CRIAR TODOS OS ARQUIVOS DENTRO DA PASTA `challenges`** ⚠
 
-1. Leia a pergunta e crie no diretório `challenges` um arquivo chamado `desafioN.js`, em que N é o número do desafio.
+* Faça `commits` das alterações que você fizer no código regularmente
 
-2. O arquivo deve conter apenas o código MQL (_Mongo Query Language_) do desafio resolvido. **Não se esqueça de incluir o ponto e vírgula (";")** no final de suas queries, como no exemplo a seguir:
-    ```js
-    db.voos.find();
-    ```
-    ⚠️ **Restrições** ⚠️:
+* Lembre-se de sempre após um (ou alguns) `commits` atualizar o repositório remoto
 
-      - **Não se deve usar aspas simples** para especificar campos e/ou valores. Quando for necessário usar aspas, **use somente aspas duplas**;
-
-      - **Não se deve usar o comando `use dataFlights`**, haja visto que **os testes já se conectam automaticamente à base `dataFlights`**.
-
-3. Faça isso até finalizar todos os desafios e depois siga as instruções de como entregar o projeto em [**Instruções para entregar seu projeto**](#instruções-para-entregar-seu-projeto).
-
-4. Para entregar o seu projeto você deverá criar um _Pull Request_ neste repositório. Este _Pull Request_ deverá conter no diretório `challenges` os arquivos `desafio1.js`, `desafio2.js` e assim por diante até o `desafio28.js`, que conterão seu código `MQL` de cada desafio, respectivamente.
-
-## ⚠️ É importante que seus arquivos tenham exatamente estes nomes! ⚠️
-
-Qualquer dúvida, procure a monitoria. Lembre-se que você pode consultar nosso conteúdo sobre [Git & GitHub](https://course.betrybe.com/intro/git/) sempre que precisar!
+* Os comandos que você utilizará com mais frequência são:
+  1. `git status` _(para verificar o que está em vermelho - fora do stage - e o que está em verde - no stage)_
+  2. `git add` _(para adicionar arquivos ao stage do Git)_
+  3. `git commit` _(para criar um commit com os arquivos que estão no stage do Git)_
+  4. `git push -u nome-da-branch` _(para enviar o commit para o repositório remoto na primeira vez que fizer o `push` de uma nova branch)_
+  5. `git push` _(para enviar o commit para o repositório remoto após o passo anterior)_
 
 ---
 
-# O que deverá ser desenvolvido
+### DEPOIS DE TERMINAR O DESENVOLVIMENTO (OPCIONAL)
 
-Hoje você fará um projeto com o codinome _dataflights_. Neste projeto, você praticará todos os conceitos de **MongoDB** já ensinados até aqui.
+Para sinalizar que o seu projeto está pronto para o _"Code Review"_ dos seus colegas, faça o seguinte:
 
-Porém, você usará um banco de dados diferente dos utilizados nos exemplos e exercícios vistos até agora. Chamaremos esse banco de `dataFlights`. As instruções de como restaurar o banco podem ser lidas a seguir.
+* Vá até a página **DO SEU** _Pull Request_, adicione a label de _"code-review"_ e marque seus colegas:
+
+  * No menu à direita, clique no _link_ **"Labels"** e escolha a _label_ **code-review**;
+
+  * No menu à direita, clique no _link_ **"Assignees"** e escolha **o seu usuário**;
+
+  * No menu à direita, clique no _link_ **"Reviewers"** e digite `students`, selecione o time `tryber/students-sd-0x`.
+
+Caso tenha alguma dúvida, [aqui tem um video explicativo](https://vimeo.com/362189205).
+
+---
+
+# Como desenvolver
+
+Execute o seguinte comando para instalar as dependências de desenvolvimento do projeto: 
+```sh
+npm install
+```
+
+## Linter
+
+Para garantir a qualidade do código, vamos utilizar neste projeto o linter ESLint. Assim o código estará alinhado com as boas práticas de desenvolvimento, sendo mais legível e de fácil manutenção! Para rodar o *linter* localmente no projeto, execute o comando abaixo: 
+
+`npm run lint`
+
+⚠ PULL REQUESTS COM ISSUES DE LINTER NÃO SERÃO AVALIADAS. ATENTE-SE PARA RESOLVÊ-LAS ANTES DE FINALIZAR O DESENVOLVIMENTO! ⚠
+
+Aqui encontram-se os requisitos do projeto. Em cada requisito você encontrara uma imagem de um protótipo de como sua aplicação deve ficar. Estilo da página não será avaliado.
 
 ---
 
@@ -242,39 +342,6 @@ Para isso, escreva no arquivo `desafio28.js` duas queries, **nesta ordem**:
 1. Conte quantos voos da empresa `LATAM AIRLINES BRASIL` cujo campo `natureza` possua valor igual a `Doméstica` e crie uma query que insira na coleção `resumoVoos` um documento com os campos: `empresa` (nome da empresa) e `totalVoosDomesticos` (o total retornado anteriormente).
 
 2. Em uma segunda query, retorne a `empresa` e o `totalVoosDomesticos` do primeiro documento presente na coleção `resumoVoos` em que a empresa seja `LATAM AIRLINES BRASIL`.
-
----
-
-### DURANTE O DESENVOLVIMENTO
-
-* ⚠ **LEMBRE-SE DE CRIAR TODOS OS ARQUIVOS DENTRO DA PASTA `challenges`** ⚠
-
-* Faça `commits` das alterações que você fizer no código regularmente
-
-* Lembre-se de sempre após um (ou alguns) `commits` atualizar o repositório remoto
-
-* Os comandos que você utilizará com mais frequência são:
-  1. `git status` _(para verificar o que está em vermelho - fora do stage - e o que está em verde - no stage)_
-  2. `git add` _(para adicionar arquivos ao stage do Git)_
-  3. `git commit` _(para criar um commit com os arquivos que estão no stage do Git)_
-  4. `git push -u nome-da-branch` _(para enviar o commit para o repositório remoto na primeira vez que fizer o `push` de uma nova branch)_
-  5. `git push` _(para enviar o commit para o repositório remoto após o passo anterior)_
-
----
-
-### DEPOIS DE TERMINAR O DESENVOLVIMENTO (OPCIONAL)
-
-Para sinalizar que o seu projeto está pronto para o _"Code Review"_ dos seus colegas, faça o seguinte:
-
-* Vá até a página **DO SEU** _Pull Request_, adicione a label de _"code-review"_ e marque seus colegas:
-
-  * No menu à direita, clique no _link_ **"Labels"** e escolha a _label_ **code-review**;
-
-  * No menu à direita, clique no _link_ **"Assignees"** e escolha **o seu usuário**;
-
-  * No menu à direita, clique no _link_ **"Reviewers"** e digite `students`, selecione o time `tryber/students-sd-0x`.
-
-Caso tenha alguma dúvida, [aqui tem um video explicativo](https://vimeo.com/362189205).
 
 ---
 
