@@ -1,6 +1,7 @@
 ### Termos e acordos
 
 Ao iniciar este projeto, você concorda com as diretrizes do Código de Ética e Conduta e do Manual da Pessoa Estudante da Trybe.
+
 ---
 
 # Boas vindas ao repositório do projeto DataFlights!!
@@ -14,14 +15,14 @@ Aqui você vai encontrar os detalhes de como estruturar o desenvolvimento do seu
 # Sumário
 
 - [Habilidades](#habilidades)
-- [Entregáveis](#entregaveis)
-  - [O que deverá ser desenvolvido](#o-que-devera-ser-desenvolvido)
+- [Entregáveis](#entregáveis)
+  - [O que deverá ser desenvolvido](#o-que-deverá-ser-desenvolvido)
   - [Desenvolvimento](#desenvolvimento)
   - [Data de entrega](#data-de-entrega)
 - [Intruções para entregar](#intruções-para-entregar)
   - [Antes de começar a desenvolver](#antes-de-começar-a-desenvolver)
   - [Durante o desenvolvimento](#durante-o-desenvolvimento)
-  - [Depois de terminar (Opcional)](#depois-de-terminar-opcional)
+  - [Depois de terminar (Opcional)](#depois-de-terminar-o-desenvolvimento-opcional)
 - [Como desenvolver](#como-desenvolver)
 - [Requisitos do projeto](#requisitos-do-projeto)
   - [Lista de requisitos](#lista-de-requisitos)
@@ -83,7 +84,7 @@ Nesse projeto você vai elaborar _queries_ em `mongo` para:
   - Será um dia de projeto.
 
 
-  - O projeto tem até a seguinte data: `DD/MM/YYYY - 14:00h`. Para ser entregue a avaliação final.	  - Data de entrega para avaliação final do projeto: `DD/MM/YYYY - 14:00h`.
+  - Data de entrega para avaliação final do projeto: `DD/MM/YYYY - 14:00h`.
 
 
 ---
