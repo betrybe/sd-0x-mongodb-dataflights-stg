@@ -218,6 +218,8 @@ Esse script passará por **todos os desafios** e imprimirá um relatório indica
 
 # Requisitos do projeto
 
+Durante a execução do projeto, utilize _queries_ do mongo para retornar os valores pedidos nos requisitos.
+
 #### Desafio 1
 
 Retorne a quantidade de documentos inseridos na coleção `voos`.
