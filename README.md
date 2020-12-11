@@ -1,9 +1,3 @@
-### Termos e acordos
-
-Ao iniciar este projeto, você concorda com as diretrizes do Código de Ética e Conduta e do Manual da Pessoa Estudante da Trybe.
-
----
-
 # Boas vindas ao repositório do projeto DataFlights!!
 
 Você já usa o GitHub diariamente para desenvolver os exercícios, certo? Agora, para desenvolver os projetos, você deverá seguir as instruções a seguir. Fique atento a cada passo, e se tiver qualquer dúvida, nos envie por _Slack_! #vqv 🚀
@@ -12,80 +6,9 @@ Aqui você vai encontrar os detalhes de como estruturar o desenvolvimento do seu
 
 ---
 
-# Sumário
+## Instruções para entregar seu projeto:
 
-- [Habilidades](#habilidades)
-- [Entregáveis](#entregáveis)
-  - [O que deverá ser desenvolvido](#o-que-deverá-ser-desenvolvido)
-  - [Desenvolvimento](#desenvolvimento)
-  - [Data de entrega](#data-de-entrega)
-- [Intruções para entregar](#intruções-para-entregar)
-  - [Antes de começar a desenvolver](#antes-de-começar-a-desenvolver)
-  - [Durante o desenvolvimento](#durante-o-desenvolvimento)
-  - [Depois de terminar (Opcional)](#depois-de-terminar-o-desenvolvimento-opcional)
-- [Como desenvolver](#como-desenvolver)
-- [Requisitos do projeto](#requisitos-do-projeto)
-  - [Lista de requisitos](#lista-de-requisitos)
-- [Avisos finais](#avisos-finais)
-
-# Habilidades
-
-- Buscar documentos no banco
-  - Usar filtros na busca
-- Deletar documentos conforme filtro
-- Contar documentos compreendidos nos filtros pedidos
-
-# Entregáveis
-
-Temos, neste projeto, uma série de desafios com diferentes níveis de complexidade que devem ser resolvidos cada um em seu arquivo próprio.
-
-1. Leia a pergunta e crie no diretório `challenges` um arquivo chamado `desafioN.js`, em que N é o número do desafio.
-
-2. O arquivo deve conter apenas o código MQL (_Mongo Query Language_) do desafio resolvido. **Não se esqueça de incluir o ponto e vírgula (";")** no final de suas queries, como no exemplo a seguir:
-    ```js
-    db.voos.find();
-    ```
-    ⚠️ **Restrições** ⚠️:
-
-      - **Não se deve usar aspas simples** para especificar campos e/ou valores. Quando for necessário usar aspas, **use somente aspas duplas**;
-
-      - **Não se deve usar o comando `use dataFlights`**, haja visto que **os testes já se conectam automaticamente à base `dataFlights`**.
-
-3. Faça isso até finalizar todos os desafios e depois siga as instruções de como entregar o projeto em [**Instruções para entregar seu projeto**](#instruções-para-entregar-seu-projeto).
-
-4. Para entregar o seu projeto você deverá criar um _Pull Request_ neste repositório. Este _Pull Request_ deverá conter no diretório `challenges` os arquivos `desafio1.js`, `desafio2.js` e assim por diante até o `desafio28.js`, que conterão seu código `MQL` de cada desafio, respectivamente.
-
-## ⚠️ É importante que seus arquivos tenham exatamente estes nomes! ⚠️
-
-Qualquer dúvida, procure a monitoria. Lembre-se que você pode consultar nosso conteúdo sobre [Git & GitHub](https://course.betrybe.com/intro/git/) sempre que precisar!
-
----
-
-## O que deverá ser desenvolvido
-
-Hoje você fará um projeto com o codinome _dataflights_. Neste projeto, você praticará todos os conceitos de **MongoDB** já ensinados até aqui.
-
-Porém, você usará um banco de dados diferente dos utilizados nos exemplos e exercícios vistos até agora. Chamaremos esse banco de `dataFlights`. As instruções de como restaurar o banco podem ser lidas a seguir.
-
----
-## Desenvolvimento
-
-Nesse projeto você vai elaborar _queries_ em `mongo` para:
-- Consultar a coleção do projeto, usando vários campos para filtrar essa busca, 
-- Deletar alguns voos conforme outros filtros.
-- Contar voos compreendidos nos filtros.
-
-## Data de Entrega
-
-  - Projeto individual.
-  - Será um dia de projeto.
-  - Data de entrega para avaliação final do projeto: `DD/MM/YYYY - 14:00h`.
-
----
-
-## Instruções para entregar seu projeto
-
-### ANTES DE COMEÇAR A DESENVOLVER
+### ANTES DE COMEÇAR A DESENVOLVER:
 
 1. Clone o repositório
   * `git clone https://github.com/tryber/sd-0x-project-mongodb-dataflights.git`.
@@ -130,55 +53,37 @@ Nesse projeto você vai elaborar _queries_ em `mongo` para:
 
 ---
 
-### DURANTE O DESENVOLVIMENTO
+# Entregáveis
 
-* ⚠ **LEMBRE-SE DE CRIAR TODOS OS ARQUIVOS DENTRO DA PASTA `challenges`** ⚠
+Temos, neste projeto, uma série de desafios com diferentes níveis de complexidade que devem ser resolvidos cada um em seu arquivo próprio.
 
-* Faça `commits` das alterações que você fizer no código regularmente
+1. Leia a pergunta e crie no diretório `challenges` um arquivo chamado `desafioN.js`, em que N é o número do desafio.
 
-* Lembre-se de sempre após um (ou alguns) `commits` atualizar o repositório remoto
+2. O arquivo deve conter apenas o código MQL (_Mongo Query Language_) do desafio resolvido. **Não se esqueça de incluir o ponto e vírgula (";")** no final de suas queries, como no exemplo a seguir:
+    ```js
+    db.voos.find();
+    ```
+    ⚠️ **Restrições** ⚠️:
 
-* Os comandos que você utilizará com mais frequência são:
-  1. `git status` _(para verificar o que está em vermelho - fora do stage - e o que está em verde - no stage)_
-  2. `git add` _(para adicionar arquivos ao stage do Git)_
-  3. `git commit` _(para criar um commit com os arquivos que estão no stage do Git)_
-  4. `git push -u nome-da-branch` _(para enviar o commit para o repositório remoto na primeira vez que fizer o `push` de uma nova branch)_
-  5. `git push` _(para enviar o commit para o repositório remoto após o passo anterior)_
+      - **Não se deve usar aspas simples** para especificar campos e/ou valores. Quando for necessário usar aspas, **use somente aspas duplas**;
 
----
+      - **Não se deve usar o comando `use dataFlights`**, haja visto que **os testes já se conectam automaticamente à base `dataFlights`**.
 
-### DEPOIS DE TERMINAR O DESENVOLVIMENTO (OPCIONAL)
+3. Faça isso até finalizar todos os desafios e depois siga as instruções de como entregar o projeto em [**Instruções para entregar seu projeto**](#instruções-para-entregar-seu-projeto).
 
-Para sinalizar que o seu projeto está pronto para o _"Code Review"_ dos seus colegas, faça o seguinte:
+4. Para entregar o seu projeto você deverá criar um _Pull Request_ neste repositório. Este _Pull Request_ deverá conter no diretório `challenges` os arquivos `desafio1.js`, `desafio2.js` e assim por diante até o `desafio28.js`, que conterão seu código `MQL` de cada desafio, respectivamente.
 
-* Vá até a página **DO SEU** _Pull Request_, adicione a label de _"code-review"_ e marque seus colegas:
+## ⚠️ É importante que seus arquivos tenham exatamente estes nomes! ⚠️
 
-  * No menu à direita, clique no _link_ **"Labels"** e escolha a _label_ **code-review**;
-
-  * No menu à direita, clique no _link_ **"Assignees"** e escolha **o seu usuário**;
-
-  * No menu à direita, clique no _link_ **"Reviewers"** e digite `students`, selecione o time `tryber/students-sd-0x`.
-
-Caso tenha alguma dúvida, [aqui tem um video explicativo](https://vimeo.com/362189205).
+Qualquer dúvida, procure a monitoria. Lembre-se que você pode consultar nosso conteúdo sobre [Git & GitHub](https://course.betrybe.com/intro/git/) sempre que precisar!
 
 ---
 
-# Como desenvolver
+# O que deverá ser desenvolvido
 
-Execute o seguinte comando para instalar as dependências de desenvolvimento do projeto: 
-```sh
-npm install
-```
+Hoje você fará um projeto com o codinome _dataflights_. Neste projeto, você praticará todos os conceitos de **MongoDB** já ensinados até aqui.
 
-## Linter
-
-Para garantir a qualidade do código, vamos utilizar neste projeto o linter ESLint. Assim o código estará alinhado com as boas práticas de desenvolvimento, sendo mais legível e de fácil manutenção! Para rodar o *linter* localmente no projeto, execute o comando abaixo: 
-
-`npm run lint`
-
-⚠ PULL REQUESTS COM ISSUES DE LINTER NÃO SERÃO AVALIADAS. ATENTE-SE PARA RESOLVÊ-LAS ANTES DE FINALIZAR O DESENVOLVIMENTO! ⚠
-
-Aqui encontram-se os requisitos do projeto. Em cada requisito você encontrara uma imagem de um protótipo de como sua aplicação deve ficar. Estilo da página não será avaliado.
+Porém, você usará um banco de dados diferente dos utilizados nos exemplos e exercícios vistos até agora. Chamaremos esse banco de `dataFlights`. As instruções de como restaurar o banco podem ser lidas a seguir.
 
 ---
 
@@ -212,65 +117,113 @@ Esse script passará por **todos os desafios** e imprimirá um relatório indica
 
 # Requisitos do projeto
 
-Durante a execução do projeto, utilize _queries_ do mongo para retornar os valores pedidos nos requisitos.
+#### Desafio 1
 
-Você deve criar uma pasta chamada `challenges`, contendo dentro dela arquivos no formato `desafioX.js` onde `X` é o número do requisito.
+Retorne a quantidade de documentos inseridos na coleção `voos`.
 
-Dentro dos arquivos `desafioX.js`, **crie uma query** ou mais (se necessário), para retornar o que o requisito pede. 
+#### Desafio 2
 
-#### 1 - Retorne a quantidade de documentos inseridos na coleção `voos`.
+Retorne os 10 primeiros documentos com voos da empresa `AZUL`.
 
-#### 2 - Retorne os 10 primeiros documentos com voos da empresa `AZUL`.
+#### Desafio 3
 
-#### 3 - Retorne a quantidade de voos da empresa `AZUL`.
+Retorne a quantidade de voos da empresa `AZUL`.
 
-#### 4 - Retorne a quantidade de voos da empresa `GOL`.
+#### Desafio 4
 
-#### 5 - Retorne o `vooId` do décimo ao décimo segundo documento da coleção `voos`.
+Retorne a quantidade de voos da empresa `GOL`.
 
-#### 6 -  Retorne apenas os campos `empresa.sigla`, `empresa.nome` e `passageiros` do voo com o campo `vooId` igual a `756807`.
+#### Desafio 5
 
-#### 7 -  Retorne a quantidade de voos em que o ano seja menor do que `2017`.
+Retorne o `vooId` do décimo ao décimo segundo documento da coleção `voos`.
 
-#### 8 - Retorne a quantidade de voos em que o ano seja maior do que `2016`.
+#### Desafio 6
 
-#### 9 - Retorne a quantidade de voos entre os anos de `2017` e `2018` 
+Retorne apenas os campos `empresa.sigla`, `empresa.nome` e `passageiros` do voo com o campo `vooId` igual a `756807`.
 
-#### 10 - Retorne apenas os **10** primeiros documentos com voos da empresa `GOL` do ano de `2017`. Exiba apenas os campos `vooId`, `empresa.nome`, `aeroportoOrigem.nome`, `aeroportoDestino.nome`, `mes` e `ano`.
+#### Desafio 7
 
-#### 11 - Retorne a quantidade de documentos em que o campo `aeroportoDestino.pais` não seja igual a `ESTADOS UNIDOS`.
+Retorne a quantidade de voos em que o ano seja menor do que `2017`.
 
-#### 12 - Retorne os documentos em que o campo `aeroportoDestino.pais` seja igual a `BRASIL`, `ARGENTINA` ou `CHILE`.
+#### Desafio 8
 
-#### 13 - Retorne os documentos em que o campo `aeroportoDestino.continente` não seja igual a `EUROPA`, `ÁSIA` e `OCEANIA`.
+Retorne a quantidade de voos em que o ano seja maior do que `2016`.
 
-#### 14 - Retorne o total de voos em que o país de origem não seja `BRASIL`.
+#### Desafio 9
 
-#### 15 - Retorne o total de voos com mais de 20 `decolagens`.
+Retorne a quantidade de voos entre os anos de `2017` e `2018`.
 
-#### 16 - Retorne o total de voos em que o campo `natureza` possui o valor `Internacional`.
+#### Desafio 10
 
-#### 17 - Retorne o total de voos em que o campo `natureza` possui o valor `Doméstica`.
+Retorne apenas os **10** primeiros documentos com voos da empresa `GOL` do ano de `2017`. Exiba apenas os campos `vooId`, `empresa.nome`, `aeroportoOrigem.nome`, `aeroportoDestino.nome`, `mes` e `ano`.
 
-#### 18 - Retorne o `vooId`, `mes` e `ano` do primeiro voo com mais de `7000` passageiros pagos.
+#### Desafio 11
 
-#### 19 - Retorne o `vooId` do primeiro voo em que o campo `litrosCombustivel` exista.
+Retorne a quantidade de documentos em que o campo `aeroportoDestino.pais` não seja igual a `ESTADOS UNIDOS`.
 
-#### 20 - Retorne o `vooId` do primeiro voo em que o campo `rtk` não exista.
+#### Desafio 12
 
-#### 21 - Retorne o `vooId` do primeiro voo em que o campo `litrosCombustivel` seja maior ou igual a `1000`.
+Conte os documentos em que o campo `aeroportoDestino.pais` seja igual a `BRASIL`, `ARGENTINA` ou `CHILE`.
 
-#### 22 - Retorne o `vooId` do primeiro voo em que a empresa seja `DELTA AIRLINES` ou `AMERICAN AIRLINES`, a sigla do aeroporto de origem seja `SBGR` e a sigla do aeroporto de destino seja `KJFK`.
+#### Desafio 13
 
-#### 23 - Retorne o `vooId` e `litrosCombustivel` do primeiro voo em que o campo `litrosCombustivel` **não seja maior do que** `1000` e o campo `litrosCombustivel` exista.
+Conte os documentos em que o campo `aeroportoDestino.continente` não seja igual a `EUROPA`, `ÁSIA` e `OCEANIA`.
 
-#### 24 - Retorne o `vooId`, `empresa.nome` e `litrosCombustivel` do primeiro voo em que `litrosCombustivel` **não seja maior do que** `600` **e** a empresa **não seja** `GOL` **ou** `AZUL`, **e** o campo `litrosCombustivel` exista.
+#### Desafio 14
 
-#### 25 - Remova todos os voos da empresa `AZUL` em que a quantidade de combustível seja menor do que `400`. Informe a quantidade de documentos removidos.
+Retorne o total de voos em que o país de origem não seja `BRASIL`.
 
-#### 26 - Remova todos os voos da empresa `GOL` em que a quantidade de passageiros pagos esteja entre `5` e `10`, incluindo os casos em que a quantidade é `5` e `10`. Informe a quantidade de documentos removidos.
+#### Desafio 15
 
-#### 27 - Retorne a quantidade total de voos de natureza `Doméstica` que a empresa `PASSAREDO` possui, via uso de uma nova coleção chamada `resumoVoos`.
+Retorne o total de voos com mais de 20 `decolagens`.
+
+#### Desafio 16
+
+Retorne o total de voos em que o campo `natureza` possui o valor `Internacional`.
+
+#### Desafio 17
+
+Retorne o total de voos em que o campo `natureza` possui o valor `Doméstica`.
+
+#### Desafio 18
+
+Retorne o `vooId`, `mes` e `ano` do primeiro voo com mais de `7000` passageiros pagos.
+
+#### Desafio 19
+
+Retorne o `vooId` do primeiro voo em que o campo `litrosCombustivel` exista.
+
+#### Desafio 20
+
+Retorne o `vooId` do primeiro voo em que o campo `rtk` não exista.
+
+#### Desafio 21
+
+Retorne o `vooId` do primeiro voo em que o campo `litrosCombustivel` seja maior ou igual a `1000`.
+
+#### Desafio 22
+
+Retorne o `vooId` do primeiro voo em que a empresa seja `DELTA AIRLINES` ou `AMERICAN AIRLINES`, a sigla do aeroporto de origem seja `SBGR` e a sigla do aeroporto de destino seja `KJFK`.
+
+#### Desafio 23
+
+Retorne o `vooId` e `litrosCombustivel` do primeiro voo em que o campo `litrosCombustivel` **não seja maior do que** `1000` e o campo `litrosCombustivel` exista.
+
+#### Desafio 24
+
+Retorne o `vooId`, `empresa.nome` e `litrosCombustivel` do primeiro voo em que `litrosCombustivel` **não seja maior do que** `600` **e** a empresa **não seja** `GOL` **ou** `AZUL`, **e** o campo `litrosCombustivel` exista.
+
+#### Desafio 25
+
+Remova todos os voos da empresa `AZUL` em que a quantidade de combustível seja menor do que `400`. Informe a quantidade de documentos removidos.
+
+#### Desafio 26
+
+Remova todos os voos da empresa `GOL` em que a quantidade de passageiros pagos esteja entre `5` e `10`, incluindo os casos em que a quantidade é `5` e `10`. Informe a quantidade de documentos removidos.
+
+#### Desafio 27
+
+Retorne a quantidade total de voos de natureza `Doméstica` que a empresa `PASSAREDO` possui, via uso de uma nova coleção chamada `resumoVoos`.
 
 Ou seja, a coleção `resumoVoos` conterá documentos onde cada um indica para cada empresa a quantidade total de voos que ela possui de natureza `Doméstica`.
 
@@ -280,13 +233,48 @@ Para isso, escreva no arquivo `desafio27.js` duas queries, **nesta ordem**:
 
 2. Em uma segunda query, retorne a `empresa` e o `totalVoosDomesticos` do primeiro documento presente na coleção `resumoVoos` em que a empresa seja `PASSAREDO`.
 
-#### 28 - Retorne a quantidade total de voos de natureza `Doméstica` que a empresa `LATAM AIRLINES BRASIL` possui, via uso de uma nova coleção chamada `resumoVoos`.
+#### Desafio 28
+
+Retorne a quantidade total de voos de natureza `Doméstica` que a empresa `LATAM AIRLINES BRASIL` possui, via uso de uma nova coleção chamada `resumoVoos`.
 
 Para isso, escreva no arquivo `desafio28.js` duas queries, **nesta ordem**:
 
 1. Conte quantos voos da empresa `LATAM AIRLINES BRASIL` cujo campo `natureza` possua valor igual a `Doméstica` e crie uma query que insira na coleção `resumoVoos` um documento com os campos: `empresa` (nome da empresa) e `totalVoosDomesticos` (o total retornado anteriormente).
 
 2. Em uma segunda query, retorne a `empresa` e o `totalVoosDomesticos` do primeiro documento presente na coleção `resumoVoos` em que a empresa seja `LATAM AIRLINES BRASIL`.
+
+---
+
+### DURANTE O DESENVOLVIMENTO
+
+* ⚠ **LEMBRE-SE DE CRIAR TODOS OS ARQUIVOS DENTRO DA PASTA `challenges`** ⚠
+
+* Faça `commits` das alterações que você fizer no código regularmente
+
+* Lembre-se de sempre após um (ou alguns) `commits` atualizar o repositório remoto
+
+* Os comandos que você utilizará com mais frequência são:
+  1. `git status` _(para verificar o que está em vermelho - fora do stage - e o que está em verde - no stage)_
+  2. `git add` _(para adicionar arquivos ao stage do Git)_
+  3. `git commit` _(para criar um commit com os arquivos que estão no stage do Git)_
+  4. `git push -u nome-da-branch` _(para enviar o commit para o repositório remoto na primeira vez que fizer o `push` de uma nova branch)_
+  5. `git push` _(para enviar o commit para o repositório remoto após o passo anterior)_
+
+---
+
+### DEPOIS DE TERMINAR O DESENVOLVIMENTO (OPCIONAL)
+
+Para sinalizar que o seu projeto está pronto para o _"Code Review"_ dos seus colegas, faça o seguinte:
+
+* Vá até a página **DO SEU** _Pull Request_, adicione a label de _"code-review"_ e marque seus colegas:
+
+  * No menu à direita, clique no _link_ **"Labels"** e escolha a _label_ **code-review**;
+
+  * No menu à direita, clique no _link_ **"Assignees"** e escolha **o seu usuário**;
+
+  * No menu à direita, clique no _link_ **"Reviewers"** e digite `students`, selecione o time `tryber/students-sd-00`.
+
+Caso tenha alguma dúvida, [aqui tem um video explicativo](https://vimeo.com/362189205).
 
 ---
 
