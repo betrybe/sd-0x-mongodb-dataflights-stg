@@ -28,7 +28,7 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - name: MongoDB Query Evaluator Step
-        uses: betrybe/mongodb-query-evaluator-action@testa/restaura-arquivos-dump-divididos
+        uses: betrybe/mongodb-query-evaluator-action@v2
         id: evaluator
         env:
           DBNAME: 'dataFlights'
