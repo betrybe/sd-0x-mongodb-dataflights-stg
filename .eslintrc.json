@@ -41,7 +41,5 @@
     ],
     "object-curly-newline": "off"
   },
-  "globals": {
-    "db":"writable"
-  }
+  "no-undef": "off"
 }
